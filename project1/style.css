@@ -1,0 +1,533 @@
+*,
+::after,
+::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+
+
+/* ----------- HOME PAGE  ------- */
+
+
+/* ----------- HEADER + NAVBAR  ------- */
+
+.header {
+    background-image: url(./imgs/header\ img.jpg);
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_items {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_items a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navbar_items li {
+    list-style: none;
+    font-weight: bold;
+    margin: 0px 25px;
+}
+
+.navbar_items li a:hover {
+    color: rgba(255, 0, 0, 0.525);
+    cursor: pointer;
+}
+
+.nav_btn {
+    margin: auto 0px;
+}
+
+.nav_btn button {
+    padding: 10px 30px;
+    background-color: rgba(255, 0, 0, 0.525);
+    color: #FFF;
+    border: none;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: rgba(255, 0, 0, 0.525);
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.header_text {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.header_text h2 {
+    font-size: 3rem;
+}
+
+.header_text input {
+    padding: 9px 0px 9px 20px;
+    margin: 20px;
+    border: none;
+    outline: none;
+}
+
+
+/* ------------- SECTION 1 --------------- */
+
+.section1 {
+    margin: 80px auto;
+    color: rgba(255, 0, 0, 0.925);
+}
+
+.section1_text {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.box {
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: rgba(255, 0, 0, 0.562);
+    color: #FFF;
+}
+
+.box img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-bottom: 40px;
+}
+
+.section1_course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+/* ------------- SECTION 2  --------------- */
+
+.section2 {
+    background-color: rgba(255, 0, 0, 0.662);
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+.section2 h2 {
+    margin: 50px 0px;
+    font-size: 2rem;
+}
+
+.section2_text {
+    background-color: #FFF;
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+}
+
+.section2_text input {
+    padding: 11px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 234, 234);
+    margin: 0px 20px;
+}
+
+.section2_text input:focus {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.562);
+}
+
+
+
+/* ------------- FOOTER  --------------- */
+
+.footer {
+    background-color: yellowgreen;
+    padding: 30px;
+}
+
+.f-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.f-links {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 100px;
+}
+
+.f-links a {
+    text-decoration: none;
+}
+
+.f-links li {
+    margin: 3px 0px;
+}
+
+.f-links a:hover {
+    color: red;
+}
+
+
+
+/* ----------- CODING EXAMPLES PAGE  ------- */
+
+.coding-header {
+    background-image: url(./imgs/img6.jpg);
+    background-position: top;
+    height: 50vh;
+}
+
+.page_search {
+    margin-top: 60px;
+}
+
+.page_search h2,
+.page_search_text {
+    background-color: rgba(255, 0, 0, 0.912);
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+}
+
+.page_search_text {
+    padding: 40px !important;
+}
+
+.page_search input {
+    padding: 11px;
+    width: 230px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 234, 234);
+    margin: 0px 20px;
+}
+
+.p2_section2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.p2_section2 h1 {
+    margin-bottom: 20px;
+}
+
+.p2_section2_lists h4 {
+    margin: 10px 0px;
+    color: rgb(255, 113, 113);
+}
+
+.p2_section2_lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: rgb(48, 48, 48);
+}
+
+.p2_section2_list {
+    border: 1px solid rgb(255, 194, 194);
+    padding: 20px;
+}
+
+
+
+
+
+/* ----------- COURSE PAGE  ------- */
+
+.course-header {
+    background-image: url(./imgs/img6.jpg);
+    background-position: bottom;
+    height: 50vh;
+}
+
+.p3_section2 {
+    margin: 80px auto;
+    display: flex;
+    color: rgba(255, 0, 0, 0.528);
+}
+
+.p3_section2 h1,
+.p3_section2 h2 {
+    color: rgba(255, 0, 0, 0.878);
+}
+
+.p3_section2_left_text {
+    margin: 50px auto;
+}
+
+.p3_section2_left {
+    width: 700px;
+}
+
+.p3_section2_left img {
+    width: 100%;
+    height: 300px;
+}
+
+.p3_views img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.p3_section2_left h2 {
+    margin: 30px 0px;
+}
+
+.p3_views {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.p3_views span {
+    border-right: 3px solid red;
+    padding: 0px 10px;
+}
+
+
+.p3_section2_right {
+    margin-left: 40px;
+}
+
+.p3_section2_right input {
+    padding: 13px;
+    border: none;
+    background-color: rgb(255, 230, 230);
+    outline: none;
+}
+
+.p3_section2_right_box h2 {
+    margin: 100px 0px 30px 0px;
+}
+
+.p3_section2_right_box p {
+    margin: 10px 0px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.btn_copy {
+    background-color: rgba(255, 0, 0, 0.501);
+    width: fit-content;
+    padding: 12px 25px;
+    display: inline-block;
+    color: #FFF;
+}
+
+.p3_section2_right_box p:hover {
+    color: rgba(255, 0, 0, 0.756);
+}
+
+
+
+
+
+
+/* ----------- EBOOKS PAGE  ------- */
+
+
+.ebooks-header {
+    background-image: url(./imgs/img6.jpg);
+    background-position: left;
+    height: 50vh;
+}
+
+.p4_section2 {
+    margin: 80px auto;
+    display: flex;
+}
+
+.p4_section2_form {
+    background-color: rgba(255, 0, 0, 0.686);
+    width: 600px;
+    padding: 40px;
+    height: 500px;
+}
+
+.p4_section2_form h1 {
+    margin-bottom: 40px;
+    color: #FFF;
+}
+
+.p4_section2_form_input {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.p4_section2_form_input input {
+    padding: 14px;
+    border: none;
+    background-color: rgb(255, 233, 233);
+    margin: 10px 0px;
+    outline: none;
+}
+
+.p4_section2_form_input input:focus {
+    border-bottom: 2px solid red;
+}
+
+.p4_section2_info {
+    color: red;
+    font-size: 1.2em;
+    padding-left: 40px;
+    width: 300px;
+}
+
+.p4_section2_info h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.p4_section2_info li {
+    font-size: small;
+}
+
+
+
+/* MEDIA QUARY FOR RESPONSIVE WEB  */
+
+@media (max-width: 1120px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section2_text button {
+        margin: 15px auto;
+    }
+
+    .page_search_text {
+        padding: 40px 15px !important;
+    }
+
+    .page_search input {
+        margin: 0px 10px;
+    }
+}
+
+
+
+@media (max-width: 750px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    .navbar_items {
+        position:absolute;
+        top: 60px;
+        left: 0px;
+    }
+
+    .header_text input {
+        padding: 9px 0px 9px 150px;
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+
+    .f-links {
+        margin: 40px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 100px;
+    }
+
+    .section2_text input {
+        margin-top: 12px;
+    }
+
+    .f-link3,
+    .f-link2,
+    .f-link1 {
+        margin-top: 30px;
+    }
+
+    .page_search button {
+        margin-top: 20px;
+    }
+
+    .page_search input {
+        margin-top: 20px;
+    }
+
+    .page_search_text {
+        text-align: center;
+    }
+
+    .p3_section2 {
+        flex-wrap: wrap;
+    }
+
+    .p3_section2_right input {
+        width: 100%;
+    }
+
+    .p3_section2_left {
+        width: 100%;
+    }
+
+    .p3_views {
+        flex-wrap: wrap;
+    }
+
+    .p4_section2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p4_section2_form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section2_text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section2_text input {
+        margin: 10px 20px;
+    }
+
+}
